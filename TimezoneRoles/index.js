@@ -17,23 +17,21 @@ client.on("ready", () => {
     console.log(`Logged in as ${client.user.tag}`);
 });
 
-client.on("command", (ctx) => {
+client.on("command", async (ctx) => {
     if (ctx.name === 'settz') {
         var tryTZ = ctx.options.getString('timezone');
         var isTZ = isTimezone(tryTZ);
         if (isTZ !== undefined) {
 
-            var role = ctx.server.member.guild.roles.cache.find(r => r.name.endsWith(`(${isTZ.code.toLowerCase()})`));
+            var role = ctx.server.guild.roles.cache.find(r => r.name.endsWith(`(${isTZ.code.toLowerCase()})`));
 
             if (role !== undefined) {
                 ctx.server.member.roles.add(role);
             } else {
-                ctx.server.member.guild.roles.create({
-                    name: `00:00 (isTZ.code)`,
+                let newRole = await ctx.server.member.guild.roles.create({
+                    name: `00:00 (${isTZ.code})`,
                     color: 'BLUE'
                 });
-
-                var newRole = ctx.server.member.guild.roles.cache.find(r => r.name.endsWith(`(${isTZ.code.toLowerCase()})`));
                 ctx.server.member.roles.add(newRole);
             }
 
