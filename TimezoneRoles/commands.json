@@ -1,0 +1,14 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Romejanic/slasher/master/schema.json",
+
+    "settz": {
+        "description": "Set user's timezone",
+        "options": {
+            "timezone": {
+                "description": "Timezone to set to",
+                "type": "string",
+                "required": true
+            }
+        }
+    }
+}

@@ -1,0 +1,1262 @@
+[
+    {
+        "code": "ACDT",
+        "name": "Australian Central Daylight Savings Time",
+        "UTC_offset": "UTC+10:30",
+        "offset": 10.5,
+        "offset_seconds": 37800
+    },
+    {
+        "code": "ACST",
+        "name": "Australian Central Standard Time",
+        "UTC_offset": "UTC+09:30",
+        "offset": 9.5,
+        "offset_seconds": 34200
+    },
+    {
+        "code": "ACT",
+        "name": "ASEAN Common Time",
+        "UTC_offset": "UTC+08",
+        "offset": 8,
+        "offset_seconds": 28800
+    },
+    {
+        "code": "ADT",
+        "name": "Atlantic Daylight Time",
+        "UTC_offset": "UTC−03",
+        "offset": -3,
+        "offset_seconds": -10800
+    },
+    {
+        "code": "AEDT",
+        "name": "Australian Eastern Daylight Savings Time",
+        "UTC_offset": "UTC+11",
+        "offset": 11,
+        "offset_seconds": 39600
+    },
+    {
+        "code": "AEST",
+        "name": "Australian Eastern Standard Time",
+        "UTC_offset": "UTC+10",
+        "offset": 10,
+        "offset_seconds": 36000
+    },
+    {
+        "code": "AFT",
+        "name": "Afghanistan Time",
+        "UTC_offset": "UTC+04:30",
+        "offset": 4.5,
+        "offset_seconds": 16200
+    },
+    {
+        "code": "AKDT",
+        "name": "Alaska Daylight Time",
+        "UTC_offset": "UTC−08",
+        "offset": -8,
+        "offset_seconds": -28800
+    },
+    {
+        "code": "AKST",
+        "name": "Alaska Standard Time",
+        "UTC_offset": "UTC−09",
+        "offset": -9,
+        "offset_seconds": -32400
+    },
+    {
+        "code": "AMST",
+        "name": "Amazon Summer Time (Brazil)[1]",
+        "UTC_offset": "UTC−03",
+        "offset": -3,
+        "offset_seconds": -10800
+    },
+    {
+        "code": "AMT",
+        "name": "Amazon Time (Brazil)[2]",
+        "UTC_offset": "UTC−04",
+        "offset": -4,
+        "offset_seconds": -14400
+    },
+    {
+        "code": "ART",
+        "name": "Argentina Time",
+        "UTC_offset": "UTC−03",
+        "offset": -3,
+        "offset_seconds": -10800
+    },
+    {
+        "code": "AST",
+        "name": "Atlantic Standard Time",
+        "UTC_offset": "UTC−04",
+        "offset": -4,
+        "offset_seconds": -14400
+    },
+    {
+        "code": "AWDT",
+        "name": "Australian Western Daylight Time",
+        "UTC_offset": "UTC+09",
+        "offset": 9,
+        "offset_seconds": 32400
+    },
+    {
+        "code": "AWST",
+        "name": "Australian Western Standard Time",
+        "UTC_offset": "UTC+08",
+        "offset": 8,
+        "offset_seconds": 28800
+    },
+    {
+        "code": "AZOST",
+        "name": "Azores Standard Time",
+        "UTC_offset": "UTC−01",
+        "offset": -1,
+        "offset_seconds": -3600
+    },
+    {
+        "code": "AZT",
+        "name": "Azerbaijan Time",
+        "UTC_offset": "UTC+04",
+        "offset": 4,
+        "offset_seconds": 14400
+    },
+    {
+        "code": "BDT",
+        "name": "Brunei Time",
+        "UTC_offset": "UTC+08",
+        "offset": 8,
+        "offset_seconds": 28800
+    },
+    {
+        "code": "BIOT",
+        "name": "British Indian Ocean Time",
+        "UTC_offset": "UTC+06",
+        "offset": 6,
+        "offset_seconds": 21600
+    },
+    {
+        "code": "BIT",
+        "name": "Baker Island Time",
+        "UTC_offset": "UTC−12",
+        "offset": -12,
+        "offset_seconds": -43200
+    },
+    {
+        "code": "BOT",
+        "name": "Bolivia Time",
+        "UTC_offset": "UTC−04",
+        "offset": -4,
+        "offset_seconds": -14400
+    },
+    {
+        "code": "BRT",
+        "name": "Brasilia Time",
+        "UTC_offset": "UTC−03",
+        "offset": -3,
+        "offset_seconds": -10800
+    },
+    {
+        "code": "BST",
+        "name": "British Summer Time (British Standard Time from Feb 1968 to Oct 1971)",
+        "UTC_offset": "UTC+01",
+        "offset": 1,
+        "offset_seconds": 3600
+    },
+    {
+        "code": "BTT",
+        "name": "Bhutan Time",
+        "UTC_offset": "UTC+06",
+        "offset": 6,
+        "offset_seconds": 21600
+    },
+    {
+        "code": "CAT",
+        "name": "Central Africa Time",
+        "UTC_offset": "UTC+02",
+        "offset": 2,
+        "offset_seconds": 7200
+    },
+    {
+        "code": "CCT",
+        "name": "Cocos Islands Time",
+        "UTC_offset": "UTC+06:30",
+        "offset": 6.5,
+        "offset_seconds": 23400
+    },
+    {
+        "code": "CDT",
+        "name": "Central Daylight Time (North America)",
+        "UTC_offset": "UTC−05",
+        "offset": -5,
+        "offset_seconds": -18000
+    },
+    {
+        "code": "CEDT",
+        "name": "Central European Daylight Time",
+        "UTC_offset": "UTC+02",
+        "offset": 2,
+        "offset_seconds": 7200
+    },
+    {
+        "code": "CEST",
+        "name": "Central European Summer Time (Cf. HAEC)",
+        "UTC_offset": "UTC+02",
+        "offset": 2,
+        "offset_seconds": 7200
+    },
+    {
+        "code": "CET",
+        "name": "Central European Time",
+        "UTC_offset": "UTC+01",
+        "offset": 1,
+        "offset_seconds": 3600
+    },
+    {
+        "code": "CHADT",
+        "name": "Chatham Daylight Time",
+        "UTC_offset": "UTC+13:45",
+        "offset": 13.75,
+        "offset_seconds": 49500
+    },
+    {
+        "code": "CHAST",
+        "name": "Chatham Standard Time",
+        "UTC_offset": "UTC+12:45",
+        "offset": 12.75,
+        "offset_seconds": 45900
+    },
+    {
+        "code": "CHOT",
+        "name": "Choibalsan",
+        "UTC_offset": "UTC+08",
+        "offset": 8,
+        "offset_seconds": 28800
+    },
+    {
+        "code": "ChST",
+        "name": "Chamorro Standard Time",
+        "UTC_offset": "UTC+10",
+        "offset": 10,
+        "offset_seconds": 36000
+    },
+    {
+        "code": "CHUT",
+        "name": "Chuuk Time",
+        "UTC_offset": "UTC+10",
+        "offset": 10,
+        "offset_seconds": 36000
+    },
+    {
+        "code": "CIST",
+        "name": "Clipperton Island Standard Time",
+        "UTC_offset": "UTC−08",
+        "offset": -8,
+        "offset_seconds": -28800
+    },
+    {
+        "code": "CIT",
+        "name": "Central Indonesia Time",
+        "UTC_offset": "UTC+08",
+        "offset": 8,
+        "offset_seconds": 28800
+    },
+    {
+        "code": "CKT",
+        "name": "Cook Island Time",
+        "UTC_offset": "UTC−10",
+        "offset": -10,
+        "offset_seconds": -36000
+    },
+    {
+        "code": "CLST",
+        "name": "Chile Summer Time",
+        "UTC_offset": "UTC−03",
+        "offset": -3,
+        "offset_seconds": -10800
+    },
+    {
+        "code": "CLT",
+        "name": "Chile Standard Time",
+        "UTC_offset": "UTC−04",
+        "offset": -4,
+        "offset_seconds": -14400
+    },
+    {
+        "code": "COST",
+        "name": "Colombia Summer Time",
+        "UTC_offset": "UTC−04",
+        "offset": -4,
+        "offset_seconds": -14400
+    },
+    {
+        "code": "COT",
+        "name": "Colombia Time",
+        "UTC_offset": "UTC−05",
+        "offset": -5,
+        "offset_seconds": -18000
+    },
+    {
+        "code": "CST",
+        "name": "Central Standard Time (North America)",
+        "UTC_offset": "UTC−06",
+        "offset": -6,
+        "offset_seconds": -21600
+    },
+    {
+        "code": "CT",
+        "name": "China time",
+        "UTC_offset": "UTC+08",
+        "offset": 8,
+        "offset_seconds": 28800
+    },
+    {
+        "code": "CVT",
+        "name": "Cape Verde Time",
+        "UTC_offset": "UTC−01",
+        "offset": -1,
+        "offset_seconds": -3600
+    },
+    {
+        "code": "CWST",
+        "name": "Central Western Standard Time (Australia) unofficial",
+        "UTC_offset": "UTC+08:45",
+        "offset": 8.75,
+        "offset_seconds": 31500
+    },
+    {
+        "code": "CXT",
+        "name": "Christmas Island Time",
+        "UTC_offset": "UTC+07",
+        "offset": 7,
+        "offset_seconds": 25200
+    },
+    {
+        "code": "DAVT",
+        "name": "Davis Time",
+        "UTC_offset": "UTC+07",
+        "offset": 7,
+        "offset_seconds": 25200
+    },
+    {
+        "code": "DDUT",
+        "name": "Dumont d'Urville Time",
+        "UTC_offset": "UTC+10",
+        "offset": 10,
+        "offset_seconds": 36000
+    },
+    {
+        "code": "DFT",
+        "name": "AIX specific equivalent of Central European Time[4]",
+        "UTC_offset": "UTC+01",
+        "offset": 1,
+        "offset_seconds": 3600
+    },
+    {
+        "code": "EASST",
+        "name": "Easter Island Standard Summer Time",
+        "UTC_offset": "UTC−05",
+        "offset": -5,
+        "offset_seconds": -18000
+    },
+    {
+        "code": "EAST",
+        "name": "Easter Island Standard Time",
+        "UTC_offset": "UTC−06",
+        "offset": -6,
+        "offset_seconds": -21600
+    },
+    {
+        "code": "EAT",
+        "name": "East Africa Time",
+        "UTC_offset": "UTC+03",
+        "offset": 3,
+        "offset_seconds": 10800
+    },
+    {
+        "code": "ECT",
+        "name": "Eastern Caribbean Time (does not recognise DST)",
+        "UTC_offset": "UTC−04",
+        "offset": -4,
+        "offset_seconds": -14400
+    },
+    {
+        "code": "EDT",
+        "name": "Eastern Daylight Time (North America)",
+        "UTC_offset": "UTC−04",
+        "offset": -4,
+        "offset_seconds": -14400
+    },
+    {
+        "code": "EEDT",
+        "name": "Eastern European Daylight Time",
+        "UTC_offset": "UTC+03",
+        "offset": 3,
+        "offset_seconds": 10800
+    },
+    {
+        "code": "EEST",
+        "name": "Eastern European Summer Time",
+        "UTC_offset": "UTC+03",
+        "offset": 3,
+        "offset_seconds": 10800
+    },
+    {
+        "code": "EET",
+        "name": "Eastern European Time",
+        "UTC_offset": "UTC+02",
+        "offset": 2,
+        "offset_seconds": 7200
+    },
+    {
+        "code": "EGST",
+        "name": "Eastern Greenland Summer Time",
+        "UTC_offset": "UTC+00",
+        "offset": 0,
+        "offset_seconds": 0
+    },
+    {
+        "code": "EGT",
+        "name": "Eastern Greenland Time",
+        "UTC_offset": "UTC−01",
+        "offset": -1,
+        "offset_seconds": -3600
+    },
+    {
+        "code": "EIT",
+        "name": "Eastern Indonesian Time",
+        "UTC_offset": "UTC+09",
+        "offset": 9,
+        "offset_seconds": 32400
+    },
+    {
+        "code": "EST",
+        "name": "Eastern Standard Time (North America)",
+        "UTC_offset": "UTC−05",
+        "offset": -5,
+        "offset_seconds": -18000
+    },
+    {
+        "code": "FET",
+        "name": "Further-eastern European Time",
+        "UTC_offset": "UTC+03",
+        "offset": 3,
+        "offset_seconds": 10800
+    },
+    {
+        "code": "FJT",
+        "name": "Fiji Time",
+        "UTC_offset": "UTC+12",
+        "offset": 12,
+        "offset_seconds": 43200
+    },
+    {
+        "code": "FKST",
+        "name": "Falkland Islands Standard Time",
+        "UTC_offset": "UTC−03",
+        "offset": -3,
+        "offset_seconds": -10800
+    },
+    {
+        "code": "FKT",
+        "name": "Falkland Islands Time",
+        "UTC_offset": "UTC−04",
+        "offset": -4,
+        "offset_seconds": -14400
+    },
+    {
+        "code": "FNT",
+        "name": "Fernando de Noronha Time",
+        "UTC_offset": "UTC−02",
+        "offset": -2,
+        "offset_seconds": -7200
+    },
+    {
+        "code": "GALT",
+        "name": "Galapagos Time",
+        "UTC_offset": "UTC−06",
+        "offset": -6,
+        "offset_seconds": -21600
+    },
+    {
+        "code": "GAMT",
+        "name": "Gambier Islands",
+        "UTC_offset": "UTC−09",
+        "offset": -9,
+        "offset_seconds": -32400
+    },
+    {
+        "code": "GET",
+        "name": "Georgia Standard Time",
+        "UTC_offset": "UTC+04",
+        "offset": 4,
+        "offset_seconds": 14400
+    },
+    {
+        "code": "GFT",
+        "name": "French Guiana Time",
+        "UTC_offset": "UTC−03",
+        "offset": -3,
+        "offset_seconds": -10800
+    },
+    {
+        "code": "GILT",
+        "name": "Gilbert Island Time",
+        "UTC_offset": "UTC+12",
+        "offset": 12,
+        "offset_seconds": 43200
+    },
+    {
+        "code": "GIT",
+        "name": "Gambier Island Time",
+        "UTC_offset": "UTC−09",
+        "offset": -9,
+        "offset_seconds": -32400
+    },
+    {
+        "code": "GMT",
+        "name": "Greenwich Mean Time",
+        "UTC_offset": "UTC",
+        "offset": 0,
+        "offset_seconds": 0
+    },
+    {
+        "code": "GST",
+        "name": "Gulf Standard Time",
+        "UTC_offset": "UTC+04",
+        "offset": 4,
+        "offset_seconds": 14400
+    },
+    {
+        "code": "GYT",
+        "name": "Guyana Time",
+        "UTC_offset": "UTC−04",
+        "offset": -4,
+        "offset_seconds": -14400
+    },
+    {
+        "code": "HADT",
+        "name": "Hawaii-Aleutian Daylight Time",
+        "UTC_offset": "UTC−09",
+        "offset": -9,
+        "offset_seconds": -32400
+    },
+    {
+        "code": "HAEC",
+        "name": "Heure Avancée d'Europe Centrale francised name for CEST",
+        "UTC_offset": "UTC+02",
+        "offset": 2,
+        "offset_seconds": 7200
+    },
+    {
+        "code": "HAST",
+        "name": "Hawaii-Aleutian Standard Time",
+        "UTC_offset": "UTC−10",
+        "offset": -10,
+        "offset_seconds": -36000
+    },
+    {
+        "code": "HKT",
+        "name": "Hong Kong Time",
+        "UTC_offset": "UTC+08",
+        "offset": 8,
+        "offset_seconds": 28800
+    },
+    {
+        "code": "HMT",
+        "name": "Heard and McDonald Islands Time",
+        "UTC_offset": "UTC+05",
+        "offset": 5,
+        "offset_seconds": 18000
+    },
+    {
+        "code": "HOVT",
+        "name": "Khovd Time",
+        "UTC_offset": "UTC+07",
+        "offset": 7,
+        "offset_seconds": 25200
+    },
+    {
+        "code": "HST",
+        "name": "Hawaii Standard Time",
+        "UTC_offset": "UTC−10",
+        "offset": -10,
+        "offset_seconds": -36000
+    },
+    {
+        "code": "ICT",
+        "name": "Indochina Time",
+        "UTC_offset": "UTC+07",
+        "offset": 7,
+        "offset_seconds": 25200
+    },
+    {
+        "code": "IDT",
+        "name": "Israel Daylight Time",
+        "UTC_offset": "UTC+03",
+        "offset": 3,
+        "offset_seconds": 10800
+    },
+    {
+        "code": "IOT",
+        "name": "Indian Ocean Time",
+        "UTC_offset": "UTC+03",
+        "offset": 3,
+        "offset_seconds": 10800
+    },
+    {
+        "code": "IRDT",
+        "name": "Iran Daylight Time",
+        "UTC_offset": "UTC+04:30",
+        "offset": 4.5,
+        "offset_seconds": 16200
+    },
+    {
+        "code": "IRKT",
+        "name": "Irkutsk Time",
+        "UTC_offset": "UTC+08",
+        "offset": 8,
+        "offset_seconds": 28800
+    },
+    {
+        "code": "IRST",
+        "name": "Iran Standard Time",
+        "UTC_offset": "UTC+03:30",
+        "offset": 3.5,
+        "offset_seconds": 12600
+    },
+    {
+        "code": "IST",
+        "name": "Indian Standard Time",
+        "UTC_offset": "UTC+05:30",
+        "offset": 5.5,
+        "offset_seconds": 19800
+    },
+    {
+        "code": "JST",
+        "name": "Japan Standard Time",
+        "UTC_offset": "UTC+09",
+        "offset": 9,
+        "offset_seconds": 32400
+    },
+    {
+        "code": "KGT",
+        "name": "Kyrgyzstan time",
+        "UTC_offset": "UTC+06",
+        "offset": 6,
+        "offset_seconds": 21600
+    },
+    {
+        "code": "KOST",
+        "name": "Kosrae Time",
+        "UTC_offset": "UTC+11",
+        "offset": 11,
+        "offset_seconds": 39600
+    },
+    {
+        "code": "KRAT",
+        "name": "Krasnoyarsk Time",
+        "UTC_offset": "UTC+07",
+        "offset": 7,
+        "offset_seconds": 25200
+    },
+    {
+        "code": "KST",
+        "name": "Korea Standard Time",
+        "UTC_offset": "UTC+09",
+        "offset": 9,
+        "offset_seconds": 32400
+    },
+    {
+        "code": "LHST",
+        "name": "Lord Howe Summer Time",
+        "UTC_offset": "UTC+11",
+        "offset": 11,
+        "offset_seconds": 39600
+    },
+    {
+        "code": "LINT",
+        "name": "Line Islands Time",
+        "UTC_offset": "UTC+14",
+        "offset": 14,
+        "offset_seconds": 50400
+    },
+    {
+        "code": "MAGT",
+        "name": "Magadan Time",
+        "UTC_offset": "UTC+12",
+        "offset": 12,
+        "offset_seconds": 43200
+    },
+    {
+        "code": "MART",
+        "name": "Marquesas Islands Time",
+        "UTC_offset": "UTC−09:30",
+        "offset": -9.5,
+        "offset_seconds": -34200
+    },
+    {
+        "code": "MAWT",
+        "name": "Mawson Station Time",
+        "UTC_offset": "UTC+05",
+        "offset": 5,
+        "offset_seconds": 18000
+    },
+    {
+        "code": "MDT",
+        "name": "Mountain Daylight Time (North America)",
+        "UTC_offset": "UTC−06",
+        "offset": -6,
+        "offset_seconds": -21600
+    },
+    {
+        "code": "MET",
+        "name": "Middle European Time Same zone as CET",
+        "UTC_offset": "UTC+01",
+        "offset": 1,
+        "offset_seconds": 3600
+    },
+    {
+        "code": "MEST",
+        "name": "Middle European Saving Time Same zone as CEST",
+        "UTC_offset": "UTC+02",
+        "offset": 2,
+        "offset_seconds": 7200
+    },
+    {
+        "code": "MHT",
+        "name": "Marshall Islands",
+        "UTC_offset": "UTC+12",
+        "offset": 12,
+        "offset_seconds": 43200
+    },
+    {
+        "code": "MIST",
+        "name": "Macquarie Island Station Time",
+        "UTC_offset": "UTC+11",
+        "offset": 11,
+        "offset_seconds": 39600
+    },
+    {
+        "code": "MIT",
+        "name": "Marquesas Islands Time",
+        "UTC_offset": "UTC−09:30",
+        "offset": -9.5,
+        "offset_seconds": -34200
+    },
+    {
+        "code": "MMT",
+        "name": "Myanmar Time",
+        "UTC_offset": "UTC+06:30",
+        "offset": 6.5,
+        "offset_seconds": 23400
+    },
+    {
+        "code": "MSK",
+        "name": "Moscow Time",
+        "UTC_offset": "UTC+03",
+        "offset": 3,
+        "offset_seconds": 10800
+    },
+    {
+        "code": "MST",
+        "name": "Mountain Standard Time (North America)",
+        "UTC_offset": "UTC−07",
+        "offset": -7,
+        "offset_seconds": -25200
+    },
+    {
+        "code": "MUT",
+        "name": "Mauritius Time",
+        "UTC_offset": "UTC+04",
+        "offset": 4,
+        "offset_seconds": 14400
+    },
+    {
+        "code": "MVT",
+        "name": "Maldives Time",
+        "UTC_offset": "UTC+05",
+        "offset": 5,
+        "offset_seconds": 18000
+    },
+    {
+        "code": "MYT",
+        "name": "Malaysia Time",
+        "UTC_offset": "UTC+08",
+        "offset": 8,
+        "offset_seconds": 28800
+    },
+    {
+        "code": "NCT",
+        "name": "New Caledonia Time",
+        "UTC_offset": "UTC+11",
+        "offset": 11,
+        "offset_seconds": 39600
+    },
+    {
+        "code": "NDT",
+        "name": "Newfoundland Daylight Time",
+        "UTC_offset": "UTC−02:30",
+        "offset": -2.5,
+        "offset_seconds": -9000
+    },
+    {
+        "code": "NFT",
+        "name": "Norfolk Time",
+        "UTC_offset": "UTC+11:30",
+        "offset": 11.5,
+        "offset_seconds": 41400
+    },
+    {
+        "code": "NPT",
+        "name": "Nepal Time",
+        "UTC_offset": "UTC+05:45",
+        "offset": 5.75,
+        "offset_seconds": 20700
+    },
+    {
+        "code": "NST",
+        "name": "Newfoundland Standard Time",
+        "UTC_offset": "UTC−03:30",
+        "offset": -3.5,
+        "offset_seconds": -12600
+    },
+    {
+        "code": "NT",
+        "name": "Newfoundland Time",
+        "UTC_offset": "UTC−03:30",
+        "offset": -3.5,
+        "offset_seconds": -12600
+    },
+    {
+        "code": "NUT",
+        "name": "Niue Time",
+        "UTC_offset": "UTC−11",
+        "offset": -11,
+        "offset_seconds": -39600
+    },
+    {
+        "code": "NZDT",
+        "name": "New Zealand Daylight Time",
+        "UTC_offset": "UTC+13",
+        "offset": 13,
+        "offset_seconds": 46800
+    },
+    {
+        "code": "NZST",
+        "name": "New Zealand Standard Time",
+        "UTC_offset": "UTC+12",
+        "offset": 12,
+        "offset_seconds": 43200
+    },
+    {
+        "code": "OMST",
+        "name": "Omsk Time",
+        "UTC_offset": "UTC+06",
+        "offset": 6,
+        "offset_seconds": 21600
+    },
+    {
+        "code": "ORAT",
+        "name": "Oral Time",
+        "UTC_offset": "UTC+05",
+        "offset": 5,
+        "offset_seconds": 18000
+    },
+    {
+        "code": "PDT",
+        "name": "Pacific Daylight Time (North America)",
+        "UTC_offset": "UTC−07",
+        "offset": -7,
+        "offset_seconds": -25200
+    },
+    {
+        "code": "PET",
+        "name": "Peru Time",
+        "UTC_offset": "UTC−05",
+        "offset": -5,
+        "offset_seconds": -18000
+    },
+    {
+        "code": "PETT",
+        "name": "Kamchatka Time",
+        "UTC_offset": "UTC+12",
+        "offset": 12,
+        "offset_seconds": 43200
+    },
+    {
+        "code": "PGT",
+        "name": "Papua New Guinea Time",
+        "UTC_offset": "UTC+10",
+        "offset": 10,
+        "offset_seconds": 36000
+    },
+    {
+        "code": "PHOT",
+        "name": "Phoenix Island Time",
+        "UTC_offset": "UTC+13",
+        "offset": 13,
+        "offset_seconds": 46800
+    },
+    {
+        "code": "PKT",
+        "name": "Pakistan Standard Time",
+        "UTC_offset": "UTC+05",
+        "offset": 5,
+        "offset_seconds": 18000
+    },
+    {
+        "code": "PMDT",
+        "name": "Saint Pierre and Miquelon Daylight time",
+        "UTC_offset": "UTC−02",
+        "offset": -2,
+        "offset_seconds": -7200
+    },
+    {
+        "code": "PMST",
+        "name": "Saint Pierre and Miquelon Standard Time",
+        "UTC_offset": "UTC−03",
+        "offset": -3,
+        "offset_seconds": -10800
+    },
+    {
+        "code": "PONT",
+        "name": "Pohnpei Standard Time",
+        "UTC_offset": "UTC+11",
+        "offset": 11,
+        "offset_seconds": 39600
+    },
+    {
+        "code": "PST",
+        "name": "Pacific Standard Time (North America)",
+        "UTC_offset": "UTC−08",
+        "offset": -8,
+        "offset_seconds": -28800
+    },
+    {
+        "code": "PYST",
+        "name": "Paraguay Summer Time (South America)[6]",
+        "UTC_offset": "UTC−03",
+        "offset": -3,
+        "offset_seconds": -10800
+    },
+    {
+        "code": "PYT",
+        "name": "Paraguay Time (South America)[7]",
+        "UTC_offset": "UTC−04",
+        "offset": -4,
+        "offset_seconds": -14400
+    },
+    {
+        "code": "RET",
+        "name": "Réunion Time",
+        "UTC_offset": "UTC+04",
+        "offset": 4,
+        "offset_seconds": 14400
+    },
+    {
+        "code": "ROTT",
+        "name": "Rothera Research Station Time",
+        "UTC_offset": "UTC−03",
+        "offset": -3,
+        "offset_seconds": -10800
+    },
+    {
+        "code": "SAKT",
+        "name": "Sakhalin Island time",
+        "UTC_offset": "UTC+11",
+        "offset": 11,
+        "offset_seconds": 39600
+    },
+    {
+        "code": "SAMT",
+        "name": "Samara Time",
+        "UTC_offset": "UTC+04",
+        "offset": 4,
+        "offset_seconds": 14400
+    },
+    {
+        "code": "SAST",
+        "name": "South African Standard Time",
+        "UTC_offset": "UTC+02",
+        "offset": 2,
+        "offset_seconds": 7200
+    },
+    {
+        "code": "SBT",
+        "name": "Solomon Islands Time",
+        "UTC_offset": "UTC+11",
+        "offset": 11,
+        "offset_seconds": 39600
+    },
+    {
+        "code": "SCT",
+        "name": "Seychelles Time",
+        "UTC_offset": "UTC+04",
+        "offset": 4,
+        "offset_seconds": 14400
+    },
+    {
+        "code": "SGT",
+        "name": "Singapore Time",
+        "UTC_offset": "UTC+08",
+        "offset": 8,
+        "offset_seconds": 28800
+    },
+    {
+        "code": "SLST",
+        "name": "Sri Lanka Time",
+        "UTC_offset": "UTC+05:30",
+        "offset": 5.5,
+        "offset_seconds": 19800
+    },
+    {
+        "code": "SRET",
+        "name": "Srednekolymsk Time",
+        "UTC_offset": "UTC+11",
+        "offset": 11,
+        "offset_seconds": 39600
+    },
+    {
+        "code": "SRT",
+        "name": "Suriname Time",
+        "UTC_offset": "UTC−03",
+        "offset": -3,
+        "offset_seconds": -10800
+    },
+    {
+        "code": "SST",
+        "name": "Samoa Standard Time",
+        "UTC_offset": "UTC−11",
+        "offset": -11,
+        "offset_seconds": -39600
+    },
+    {
+        "code": "SYOT",
+        "name": "Showa Station Time",
+        "UTC_offset": "UTC+03",
+        "offset": 3,
+        "offset_seconds": 10800
+    },
+    {
+        "code": "TAHT",
+        "name": "Tahiti Time",
+        "UTC_offset": "UTC−10",
+        "offset": -10,
+        "offset_seconds": -36000
+    },
+    {
+        "code": "THA",
+        "name": "Thailand Standard Time",
+        "UTC_offset": "UTC+07",
+        "offset": 7,
+        "offset_seconds": 25200
+    },
+    {
+        "code": "TFT",
+        "name": "Indian/Kerguelen",
+        "UTC_offset": "UTC+05",
+        "offset": 5,
+        "offset_seconds": 18000
+    },
+    {
+        "code": "TJT",
+        "name": "Tajikistan Time",
+        "UTC_offset": "UTC+05",
+        "offset": 5,
+        "offset_seconds": 18000
+    },
+    {
+        "code": "TKT",
+        "name": "Tokelau Time",
+        "UTC_offset": "UTC+13",
+        "offset": 13,
+        "offset_seconds": 46800
+    },
+    {
+        "code": "TLT",
+        "name": "Timor Leste Time",
+        "UTC_offset": "UTC+09",
+        "offset": 9,
+        "offset_seconds": 32400
+    },
+    {
+        "code": "TMT",
+        "name": "Turkmenistan Time",
+        "UTC_offset": "UTC+05",
+        "offset": 5,
+        "offset_seconds": 18000
+    },
+    {
+        "code": "TOT",
+        "name": "Tonga Time",
+        "UTC_offset": "UTC+13",
+        "offset": 13,
+        "offset_seconds": 46800
+    },
+    {
+        "code": "TVT",
+        "name": "Tuvalu Time",
+        "UTC_offset": "UTC+12",
+        "offset": 12,
+        "offset_seconds": 43200
+    },
+    {
+        "code": "UCT",
+        "name": "Coordinated Universal Time",
+        "UTC_offset": "UTC",
+        "offset": 0,
+        "offset_seconds": 0
+    },
+    {
+        "code": "ULAT",
+        "name": "Ulaanbaatar Time",
+        "UTC_offset": "UTC+08",
+        "offset": 8,
+        "offset_seconds": 28800
+    },
+    {
+        "code": "USZ1",
+        "name": "Kaliningrad Time",
+        "UTC_offset": "UTC+02",
+        "offset": 2,
+        "offset_seconds": 7200
+    },
+    {
+        "code": "UTC",
+        "name": "Coordinated Universal Time",
+        "UTC_offset": "UTC",
+        "offset": 0,
+        "offset_seconds": 0
+    },
+    {
+        "code": "UYST",
+        "name": "Uruguay Summer Time",
+        "UTC_offset": "UTC−02",
+        "offset": -2,
+        "offset_seconds": -7200
+    },
+    {
+        "code": "UYT",
+        "name": "Uruguay Standard Time",
+        "UTC_offset": "UTC−03",
+        "offset": -3,
+        "offset_seconds": -10800
+    },
+    {
+        "code": "UZT",
+        "name": "Uzbekistan Time",
+        "UTC_offset": "UTC+05",
+        "offset": 5,
+        "offset_seconds": 18000
+    },
+    {
+        "code": "VET",
+        "name": "Venezuelan Standard Time",
+        "UTC_offset": "UTC−04:30",
+        "offset": -4.5,
+        "offset_seconds": -16200
+    },
+    {
+        "code": "VLAT",
+        "name": "Vladivostok Time",
+        "UTC_offset": "UTC+10",
+        "offset": 10,
+        "offset_seconds": 36000
+    },
+    {
+        "code": "VOLT",
+        "name": "Volgograd Time",
+        "UTC_offset": "UTC+04",
+        "offset": 4,
+        "offset_seconds": 14400
+    },
+    {
+        "code": "VOST",
+        "name": "Vostok Station Time",
+        "UTC_offset": "UTC+06",
+        "offset": 6,
+        "offset_seconds": 21600
+    },
+    {
+        "code": "VUT",
+        "name": "Vanuatu Time",
+        "UTC_offset": "UTC+11",
+        "offset": 11,
+        "offset_seconds": 39600
+    },
+    {
+        "code": "WAKT",
+        "name": "Wake Island Time",
+        "UTC_offset": "UTC+12",
+        "offset": 12,
+        "offset_seconds": 43200
+    },
+    {
+        "code": "WAST",
+        "name": "West Africa Summer Time",
+        "UTC_offset": "UTC+02",
+        "offset": 2,
+        "offset_seconds": 7200
+    },
+    {
+        "code": "WAT",
+        "name": "West Africa Time",
+        "UTC_offset": "UTC+01",
+        "offset": 1,
+        "offset_seconds": 3600
+    },
+    {
+        "code": "WEDT",
+        "name": "Western European Daylight Time",
+        "UTC_offset": "UTC+01",
+        "offset": 1,
+        "offset_seconds": 3600
+    },
+    {
+        "code": "WEST",
+        "name": "Western European Summer Time",
+        "UTC_offset": "UTC+01",
+        "offset": 1,
+        "offset_seconds": 3600
+    },
+    {
+        "code": "WET",
+        "name": "Western European Time",
+        "UTC_offset": "UTC",
+        "offset": 0,
+        "offset_seconds": 0
+    },
+    {
+        "code": "WIT",
+        "name": "Western Indonesian Time",
+        "UTC_offset": "UTC+07",
+        "offset": 7,
+        "offset_seconds": 25200
+    },
+    {
+        "code": "WST",
+        "name": "Western Standard Time",
+        "UTC_offset": "UTC+08",
+        "offset": 8,
+        "offset_seconds": 28800
+    },
+    {
+        "code": "YAKT",
+        "name": "Yakutsk Time",
+        "UTC_offset": "UTC+09",
+        "offset": 9,
+        "offset_seconds": 32400
+    },
+    {
+        "code": "YEKT",
+        "name": "Yekaterinburg Time",
+        "UTC_offset": "UTC+05",
+        "offset": 5,
+        "offset_seconds": 18000
+    },
+    {
+        "code": "Z",
+        "name": "Zulu Time (Coordinated Universal Time)",
+        "UTC_offset": "UTC",
+        "offset": 0,
+        "offset_seconds": 0
+    }
+]
