@@ -1,7 +1,6 @@
-
 # Bot Authorisation File
-*/auth.json
-*/.env
+auth.json
+.env
 
 # Logs
 logs
