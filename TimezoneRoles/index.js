@@ -120,7 +120,17 @@ function GetLocalTimeStr(utcOffset) {
     let currMin = Math.round(utcMinute + offsetMins);
     let currHour = Math.round(utcHour + offsetHours);
 
+    if(currMin < 0) {
+        currMin = 60 - Math.abs(currMin);
+        currHour--;
+    }
+    if(currMin > 59) {
+        currMin = Math.abs(currMin) - 60;
+        currHour++;
+    }
+
     if(currHour < 0) { currHour = 24 - Math.abs(currHour);}
+    if(currHour > 24) { currHour = currHour - 24 };
 
     return `${("0" + currHour).slice(-2)}:${("0"+currMin).slice(-2)}`;
 }
