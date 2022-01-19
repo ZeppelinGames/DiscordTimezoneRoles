@@ -1,4 +1,3 @@
-require('dotenv').config();
 const { SlasherClient } = require("discord.js-slasher");
 const fs = require('fs');
 
@@ -14,8 +13,6 @@ const roleRe = /[0-9]{2}:[0-9]{2} \([a-zA-Z]+\)/;
 const timezoneRe = /[a-zA-Z]+/;
 
 const client = new SlasherClient({ useAuth: true });
-
-var lastHour = 0;
 
 setInterval(UpdateRoles, 60000);
 
