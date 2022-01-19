@@ -25,12 +25,12 @@ client.on("ready", () => {
     console.log(`Logged in as ${client.user.tag}`);
 });
 
-client.on("command", (ctx) => {
+client.on("command", async (ctx) => {
     if (ctx.name === 'settz') {
         var tzInputName = ctx.options.getString('timezone').toUpperCase();
         if (timezoneUtc.has(tzInputName)) {
 
-            var role = ctx.server.member.guild.roles.cache.find(r => r.name.endsWith(`(${tzInputName})`));
+            var role = ctx.server.guild.roles.cache.find(r => r.name.endsWith(`(${tzInputName})`));
 
             if (role !== undefined) {
                 ctx.server.member.roles.add(role);
@@ -38,12 +38,11 @@ client.on("command", (ctx) => {
                 let utcTime = new Date().getTime();
                 let localTimeStr = GetLocalTimeStr(utcTime, timezoneUtc.get(tzInputName));
 
-                ctx.server.member.guild.roles.create({
+                let newRole = await ctx.server.guild.roles.create({
                     name: `${localTimeStr} (${tzInputName})`,
                     color: 'BLUE'
                 });
 
-                var newRole = ctx.server.member.guild.roles.cache.find(r => r.name.endsWith(`(${isTZ.code.toLowerCase()})`));
                 ctx.server.member.roles.add(newRole);
             }
 
