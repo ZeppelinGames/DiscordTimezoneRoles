@@ -6,11 +6,18 @@
 [![MIT License][license-shield]][license-url]
 
 ## Description
-Show users tiemzones as a role within Discord. A handy bot for Discord servers with worldwide communities.
+Show users timezones as a role within Discord. A handy bot for Discord servers with worldwide communities.
 
 ## Setup
-Install required node modules `node install` <br>
-Project uses Slasher (https://github.com/Romejanic/slasher). To setup Slasher run either `slasher` or `npx slasher` (`slasher` may not work on Windows machines) or follow the setups here: https://github.com/Romejanic/slasher/blob/master/docs/guides/getting-started.md#run-the-slasher-utility
+Install required node modules
+```sh
+cd TimezoneRoles
+npm install
+```
+
+Project uses [Slasher](https://github.com/Romejanic/slasher).
+
+To update commands, run either `slasher` or `npx slasher` (`slasher` may not work on Windows machines) or [follow these setups](https://github.com/Romejanic/slasher/blob/master/docs/guides/getting-started.md#run-the-slasher-utility).
 
 ## Usage
 DiscordTimezoneRoles currently has 3 inbuilt commands but more can be added via the `commands.json` file. <br>
@@ -24,7 +31,7 @@ DiscordTimezoneRoles currently has 3 inbuilt commands but more can be added via 
 This project is licensed under the [MIT] License - see the [LICENSE](https://github.com/ZeppelinGames/DiscordTimezoneRoles/blob/master/LICENSE) file for details
 
 ## Contributors
-Thanks to Bailey Gibbons (https://github.com/Bazzagibbs) for cleaning up my spaghetti code and Jack Davenport (https://github.com/Romejanic) for cleaning up the project (and creating Slasher).
+Thanks to [Bailey Gibbons](https://github.com/Bazzagibbs) for cleaning up my spaghetti code and [Jack Davenport](https://github.com/Romejanic) for cleaning up the project (and creating Slasher).
 
 ## Check out my other shit
 <a href="http://www.twitter.com/Zeppelin_Games"><img src="https://image.flaticon.com/icons/png/512/124/124021.png" width="48"></a>
