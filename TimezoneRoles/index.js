@@ -7,15 +7,13 @@ let timezones = JSON.parse(timezoneJsonData);
 
 const timezoneUtc = new Map();
 timezones.forEach(element => {
-    timezoneUtc.set(element.code, element.offset_seconds)
+    timezoneUtc.set(element.code, element.offset)
 });
 
-const roleRe = /[0-9]{2}:[0-9]{2} \([a-zA-Z]\)+/;
+const roleRe = /[0-9]{2}:[0-9]{2} \([a-zA-Z]+\)/;
 const timezoneRe = /[a-zA-Z]+/;
 
 const client = new SlasherClient({ useAuth: true });
-
-const d = new Date();
 
 var lastHour = 0;
 
@@ -35,8 +33,7 @@ client.on("command", async (ctx) => {
             if (role !== undefined) {
                 ctx.server.member.roles.add(role);
             } else {
-                let utcTime = new Date().getTime();
-                let localTimeStr = GetLocalTimeStr(utcTime, timezoneUtc.get(tzInputName));
+                let localTimeStr = GetLocalTimeStr(timezoneUtc.get(tzInputName));
 
                 let newRole = await ctx.server.guild.roles.create({
                     name: `${localTimeStr} (${tzInputName})`,
@@ -66,18 +63,18 @@ function GetTimezoneObj(timezoneAbbr) {
 }
 
 function UpdateRoles() {
-    let utcTime = new Date().getTime();
-    let hour = utcTime / (3600000);
+    console.log("Updating roles");
+    // let hour = utcTime / (3600000);
 
-    //  if (hour != lastHour) {
-    lastHour = hour;
+    // //  if (hour != lastHour) {
+    // lastHour = hour;
 
     client.guilds.cache.forEach((guild) => {
         guild.roles.cache.forEach((role) => {
             if (roleRe.test(role.name)) {
-                let roleTz = timezoneRe.exec(role.name)[0].toUpperCase; // gets the timezone part of the role name in uppercase, e.g. "12:00 aest" -> "AEST"
-                let roleTzOffset = timezoneUtc.get(roleTz);
-                let localTimeStr = GetLocalTimeStr(utcTime, roleTzOffset);
+                let roleTz = timezoneRe.exec(role.name)[0].toUpperCase(); // gets the timezone part of the role name in uppercase, e.g. "12:00 aest" -> "AEST"
+
+                let localTimeStr = GetLocalTimeStr(timezoneUtc.get(roleTz));
 
                 role.edit({
                     name: `${localTimeStr} (${roleTz})`,
@@ -91,14 +88,25 @@ function UpdateRoles() {
     //  }
 }
 
-function GetLocalTimeStr(utcTime, utcOffsetSeconds) {
+function GetLocalTimeStr(utcOffset) {
+    let d = new Date();
 
-    let offsetTime = Math.round((utcTime / 100) + utcOffsetSeconds);
-    let currMin = Math.round(offsetTime / 60000);
-    let currHour = Math.round(offsetTime / (3600000));
+    let utcMinute = d.getUTCMinutes();
+    let utcHour = d.getUTCHours();    
 
-    return `${currHour}:${currMin}`;
+    console.log("UTC: " + utcHour + ":" + utcMinute);
+
+    let offsetMins = ((utcOffset % 1).toFixed(2)) * 60;
+    let offsetHours = (Math.floor(utcOffset));
+
+    console.log("Offset: " + offsetHours + ":" + offsetMins);
+
+    let currMin = Math.round(utcMinute + offsetMins);
+    let currHour = Math.round(utcHour + offsetHours);
+
+    console.log("Local time string: " + currHour + ":" + currMin);
+
+    return `${("0" + currHour).slice(-2)}:${("0"+currMin).slice(-2)}`;
 }
-
 
 client.login();
