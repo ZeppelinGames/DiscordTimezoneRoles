@@ -18,6 +18,8 @@ DiscordTimezoneRoles currently has 3 inbuilt commands but more can be added via 
 `/removetz <TIMEZONE>`: Removes a timezone from user <br>
 `/cleartz`: Clears all timezones from user. <br>
 
+`<TIMEZONE>` is a timezone code. List of codes can be found in `timezones.json`
+
 ## License
 This project is licensed under the [MIT] License - see the [LICENSE](https://github.com/ZeppelinGames/DiscordTimezoneRoles/blob/master/LICENSE) file for details
 
