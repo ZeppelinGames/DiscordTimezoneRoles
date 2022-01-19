@@ -96,6 +96,8 @@ function UpdateRoles() {
 
                 let localTimeStr = GetLocalTimeStr(timezoneUtc.get(roleTz));
 
+                console.log(`Set ${localTimeStr} (${roleTz})`);
+
                 role.edit({
                     name: `${localTimeStr} (${roleTz})`,
                     color: 'BLUE'
@@ -117,6 +119,8 @@ function GetLocalTimeStr(utcOffset) {
 
     let currMin = Math.round(utcMinute + offsetMins);
     let currHour = Math.round(utcHour + offsetHours);
+
+    if(currHour < 0) { currHour = 24 - Math.abs(currHour);}
 
     return `${("0" + currHour).slice(-2)}:${("0"+currMin).slice(-2)}`;
 }
