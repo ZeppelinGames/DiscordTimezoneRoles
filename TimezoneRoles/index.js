@@ -21,6 +21,7 @@ setInterval(UpdateRoles, 60000);
 
 client.on("ready", () => {
     console.log(`Logged in as ${client.user.tag}`);
+    UpdateRoles();
 });
 
 client.on("command", async (ctx) => {
@@ -51,6 +52,32 @@ client.on("command", async (ctx) => {
 
         UpdateRoles();
     }
+
+    if(ctx.name === 'removetz') {
+        var tzInputName = ctx.options.getString('timezone').toUpperCase();
+        if (timezoneUtc.has(tzInputName)) {
+
+            var role = ctx.server.guild.roles.cache.find(r => r.name.endsWith(`(${tzInputName})`));
+
+            if (role !== undefined) {
+                ctx.server.member.roles.remove(role);
+                ctx.reply(`Removed timezone ${tzInputName} from ${ctx.user}`);
+            } else {
+                ctx.reply(`${ctx.user} doesnt have timezone ${tzInputName}`);
+            }
+        }
+    }
+
+    if(ctx.name === "cleartz") {
+        for (const [key, value] of timezoneUtc.entries()) {
+            var role = ctx.server.guild.roles.cache.find(r => r.name.endsWith(`(${key})`));
+
+            if (role !== undefined) {
+                ctx.server.member.roles.remove(role);
+            }
+        }
+        ctx.reply(`Cleared all timezones from ${ctx.user}`);
+    }
 });
 
 function GetTimezoneObj(timezoneAbbr) {
@@ -63,11 +90,7 @@ function GetTimezoneObj(timezoneAbbr) {
 }
 
 function UpdateRoles() {
-    console.log("Updating roles");
-    // let hour = utcTime / (3600000);
-
-    // //  if (hour != lastHour) {
-    // lastHour = hour;
+    console.log("Updating timezone roles");
 
     client.guilds.cache.forEach((guild) => {
         guild.roles.cache.forEach((role) => {
@@ -80,8 +103,6 @@ function UpdateRoles() {
                     name: `${localTimeStr} (${roleTz})`,
                     color: 'BLUE'
                 });
-
-                console.log(`UPDATED ROLE: ${localTimeStr} (${roleTz})`)
             }
         })
     });
@@ -94,17 +115,11 @@ function GetLocalTimeStr(utcOffset) {
     let utcMinute = d.getUTCMinutes();
     let utcHour = d.getUTCHours();    
 
-    console.log("UTC: " + utcHour + ":" + utcMinute);
-
     let offsetMins = ((utcOffset % 1).toFixed(2)) * 60;
     let offsetHours = (Math.floor(utcOffset));
 
-    console.log("Offset: " + offsetHours + ":" + offsetMins);
-
     let currMin = Math.round(utcMinute + offsetMins);
     let currHour = Math.round(utcHour + offsetHours);
-
-    console.log("Local time string: " + currHour + ":" + currMin);
 
     return `${("0" + currHour).slice(-2)}:${("0"+currMin).slice(-2)}`;
 }

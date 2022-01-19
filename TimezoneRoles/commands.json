@@ -10,5 +10,18 @@
                 "required": true
             }
         }
+    },
+    "removetz": {
+        "description": "Remove timezone from user",
+        "options": {
+            "timezone" : {
+                "description": "Timezone to remove",
+                "type": "string",
+                "required": true
+            }
+        }
+    },
+    "cleartz": {
+        "description": "Clears all timezones from user"
     }
 }
