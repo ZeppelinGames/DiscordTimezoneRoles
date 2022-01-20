@@ -14,7 +14,7 @@ const timezoneRe = /[a-zA-Z]+/;
 
 const client = new SlasherClient({ useAuth: true });
 
-setInterval(UpdateRoles, 60000);
+setInterval(UpdateRoles, 600000); //call every 10 mins. Discord has an api limit of 1000 calls every 24 hours.
 
 client.on("ready", () => {
     console.log(`Logged in as ${client.user.tag}`);
