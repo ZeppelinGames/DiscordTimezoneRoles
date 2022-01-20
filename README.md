@@ -20,6 +20,10 @@ Project uses [Slasher](https://github.com/Romejanic/slasher).
 To update commands, run either `slasher` or `npx slasher` (`slasher` may not work on Windows machines) or [follow these setups](https://github.com/Romejanic/slasher/blob/master/docs/guides/getting-started.md#run-the-slasher-utility).
 
 ## Usage
+**Discord has a role edit limit of 1000 request every 24 hours.** <br> <br>
+It is recommended to change the interval at which the `setInterval(UpdateRoles, milliseconds)` function is called at (default is every 10 minutes, 60000 milliseconds). To calculate the minimum interval to call use this equation `(numberOfRoles * (1440 / minInterval)) * 60000
+` where number of roles is the amount of timezone roles (not per user).
+
 DiscordTimezoneRoles currently has 3 inbuilt commands but more can be added via the `commands.json` file. <br>
 `/settz <TIMEZONE>`: Sets user's own timezone <br>
 `/removetz <TIMEZONE>`: Removes a timezone from user <br>
